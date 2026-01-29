@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="title">
+      <span><img src="images/BookLogo.png" alt=""></span>
+      <h1><span>Book</span> Verse</h1>
+    </div>
+    <div class="content">
+      <ul>
+        <li><a href="">🏠 Home</a></li>
+        <li><a href="">💙 Wishlist</a></li>
+        <li><a href="">🛒 Cart</a></li>
+      </ul>
+      <button><a href="">Login / Sign Up</a></button>
+    </div>
+    <div>
+
+    </div>
+  </nav>
+
+  <section class="filters">
+    <div class="searchbox">
+      <span class="search-icon"> 🔍 </span>
+      <input type="text" id="search-input" placeholder=" Search by title or author .....">
+    </div>
+    <div class="filter-group">
+      <div>
+        <label for="languageFilter">Language : </label>
+        <select id="languageFilter">
+          <option value="all">All</option>
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+          <option value="marathi">Marathi</option>
+        </select>
+      </div>
+      <div>
+        <label for="languageFilter">Genre : </label>
+        <select id="languageFilter">
+          <option value="all">All</option>
+          <option value="english">Classic</option>
+          <option value="hindi">Fiction</option>
+          <option value="marathi">Non-Fiction</option>
+        </select>
+      </div>
+      <div>
+        <label for="languageFilter">Sort by : </label>
+        <select id="languageFilter">
+          <option value="all">Newest First</option>
+          <option value="english">Author A-Z</option>
+          <option value="hindi">Oldest First</option>
+          <option value="marathi">Rating: Low to High</option>
+          <option value=""></option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="section-title">FEATURED PICKS</h2>
+  <div id="featuredRow" class="featured-row">
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/gunahon-ka-devta.jpg" alt="Gunahon Ka Devta cover" class="featured-cover"
+        onerror="this.style.opacity='0.3';">
+      <div class="featured-title">Gunahon Ka Devta</div>
+      <div class="featured-meta">
+        Dharamvir Bharati • Hindi • 1949<br>
+        ⭐ 4.7 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/octoberJunction.jpeg" alt="october junction" class="featured-cover"
+        onerror="this.style.opacity='0.3';">
+      <div class="featured-title">October Junction</div>
+      <div class="featured-meta">
+        Contemporary Hindi Author • Hindi • 2020<br>
+        ⭐ 4.7 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/musafir-cafe.jpeg" alt="musafir cafe" class="featured-cover" onerror="this.style.opacity='0.3';">
+      <div class="featured-title">Musafir Cafe</div>
+      <div class="featured-meta">
+        Dharamvir Bharati • Hindi • 1949<br>
+        ⭐ 4.7 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/godan.jpg" alt="Godan" class="featured-cover" onerror="this.style.opacity='0.3';">
+      <div class="featured-title">Godan</div>
+      <div class="featured-meta">
+        Munsi Premchand • Hindi • 1936<br>
+        ⭐ 4.8 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/1984.jpeg" alt="1984" class="featured-cover" onerror="this.style.opacity='0.3';">
+      <div class="featured-title">1984</div>
+      <div class="featured-meta">
+        George Orwell • English • 1949<br>
+        ⭐ 4.7 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/The Alchemist.jpeg" alt="The Alchemist" class="featured-cover"
+        onerror="this.style.opacity='0.3';">
+      <div class="featured-title">The Alchemist</div>
+      <div class="featured-meta">
+        Paulo Coehleo • English • 1988<br>
+        ⭐ 4.3 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/Atomic Habits.jpeg" alt="Atomic Habits" class="featured-cover"
+        onerror="this.style.opacity='0.3';">
+      <div class="featured-title">Atomic Habits</div>
+      <div class="featured-meta">
+        James Clear • English • 2018<br>
+        ⭐ 4.8 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/Harry Potter.jpeg" alt="Harry Potter" class="featured-cover" onerror="this.style.opacity='0.3';">
+      <div class="featured-title">Harry Potter</div>
+      <div class="featured-meta">
+        Joanne Rowling • English • 1997<br>
+        ⭐ 4.9 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/Sapiens.jpeg" alt="Sapiens" class="featured-cover" onerror="this.style.opacity='0.3';">
+      <div class="featured-title">Sapiens</div>
+      <div class="featured-meta">
+        Yuval Noah Harari • English • 2011<br>
+        ⭐ 4.7 avg
+      </div>
+    </article>
+    <article class="featured-card" data-book-id="b1">
+      <img src="images/The Kite Runner.jpeg" alt="The Kite Runner" class="featured-cover"
+        onerror="this.style.opacity='0.3';">
+      <div class="featured-title">The Kite Runner</div>
+      <div class="featured-meta">
+        Khaled Hosseini • English • 2003<br>
+        ⭐ 4.6 avg
+      </div>
+    </article>
+  </div>
+
+  <div class="section-title2">All Books</div>
+  <div class="language">Hindi + English + multi-language mix – perfect for exams, fun, and perspective.</div>
+
+  <section class="card-grid">
+
+    <article class="book-card" data-book-id="b2">
+      <div class="book-cover-wrapper">
+        <img src="images/octoberJunction.jpeg" alt="October Junction cover" class="book-cover"
+          onerror="this.style.opacity='0.25';">
+      </div>
+      <div class="book-content">
+        <div>
+          <span class="lang-chip">Hindi</span>
+          <div class="book-title">October Junction</div>
+          <div class="book-author">Contemporary Hindi Author • 2020</div>
+        </div>
+
+        <div class="book-meta-row">
+          <span class="pill-mini">Contemporary</span><span class="pill-mini">Fiction</span>
+        </div>
+
+        <p class="book-desc">
+          Dive into October Junction, a poignant Hindi novel that captures the fragile beauty of human relationships.
+          The story follows Chitra and Sudip, who meet on October 10th every year for ten years in Banaras. It’s a
+          heartfelt journey exploring the warmth of first love, the ache of separation, and a bond that defies
+          conventional labels.
+        </p>
+
+        <div class="rating-row">
+          <div class="rating-left">
+            <div class="stars" data-book-id="b2">
+              <span class="star filled" data-star="1">★</span>
+              <span class="star filled" data-star="2">★</span>
+              <span class="star filled" data-star="3">★</span>
+              <span class="star filled" data-star="4">★</span>
+              <span class="star " data-star="5">★</span>
+            </div>
+            <div class="rating-text">
+              <span>Avg:</span> 4.4 | 5
+            </div>
+            <button class="readlist-btn " data-book-id="b2" type="button">
+              + Add to wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="book-card" data-book-id="b2">
+      <div class="book-cover-wrapper">
+        <img src="images/nirmala.jpeg" alt="October Junction cover" class="book-cover"
+          onerror="this.style.opacity='0.25';">
+      </div>
+      <div class="book-content">
+        <div>
+          <span class="lang-chip">Hindi</span>
+          <div class="book-title">Nirmala</div>
+          <div class="book-author">Munsi Premchand • 1927</div>
+        </div>
+
+        <div class="book-meta-row">
+          <span class="pill-mini">Societal Pressure</span>
+          <span class="pill-mini">Gender Roles</span>
+          <span class="pill-mini">Injustice</span>
+        </div>
+
+        <p class="book-desc">
+          A heart-wrenching masterpiece by Munshi Premchand, Nirmala tells the tragic story of a young girl forced into a marriage with an elderly widower. First published in 1928, this timeless novel is a powerful, realistic critique of the dowry system, child marriage, and the rigid patriarchy of early 20th-century Indian society. 
+        </p>
+
+        <div class="rating-row">
+          <div class="rating-left">
+            <div class="stars" data-book-id="b2">
+              <span class="star filled" data-star="1">★</span>
+              <span class="star filled" data-star="2">★</span>
+              <span class="star filled" data-star="3">★</span>
+              <span class="star filled" data-star="4">★</span>
+              <span class="star " data-star="5">★</span>
+            </div>
+            <div class="rating-text">
+              <span>Avg:</span> 4.8 | 5
+            </div>
+            <button class="readlist-btn " data-book-id="b2" type="button">
+              + Add to wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="book-card" data-book-id="b2">
+      <div class="book-cover-wrapper">
+        <img src="images/gunahon-ka-devta.jpg" alt="October Junction cover" class="book-cover"
+          onerror="this.style.opacity='0.25';">
+      </div>
+      <div class="book-content">
+        <div>
+          <span class="lang-chip">Hindi</span>
+          <div class="book-title">Gunahon Ka Devta</div>
+          <div class="book-author">Munsi Premchand • 1949</div>
+        </div>
+
+        <div class="book-meta-row">
+          <span class="pill-mini">Moral Dilemmas</span>
+          <span class="pill-mini">Sacrifice and Guilt</span>
+          <span class="pill-mini">Timeless Classic</span>
+        </div>
+
+        <p class="book-desc">
+          Gunahon Ka Devta is a timeless Hindi masterpiece that explores the intense, non-expressive love between two characters, Chandar and Sudha, against the backdrop of pre-independence Allahabad. It is a heartbreaking tale of love, societal pressures, and the emotional, moral sacrifices that come with it.  
+        </p>
+
+        <div class="rating-row">
+          <div class="rating-left">
+            <div class="stars" data-book-id="b2">
+              <span class="star filled" data-star="1">★</span>
+              <span class="star filled" data-star="2">★</span>
+              <span class="star filled" data-star="3">★</span>
+              <span class="star filled" data-star="4">★</span>
+              <span class="star " data-star="5">★</span>
+            </div>
+            <div class="rating-text">
+              <span>Avg:</span> 4.7 | 5
+            </div>
+            <button class="readlist-btn " data-book-id="b2" type="button">
+              + Add to wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="book-card" data-book-id="b2">
+      <div class="book-cover-wrapper">
+        <img src="images/the godfather.jpeg" alt="October Junction cover" class="book-cover"
+          onerror="this.style.opacity='0.25';">
+      </div>
+      <div class="book-content">
+        <div>
+          <span class="lang-chip">English</span>
+          <div class="book-title">The Godfather</div>
+          <div class="book-author">Mario Puzo • 1969</div>
+        </div>
+
+        <div class="book-meta-row">
+          <span class="pill-mini">Genre</span>
+          <span class="pill-mini">The Conflict</span>
+          <span class="pill-mini">The Patriarch</span>
+        </div>
+
+        <p class="book-desc">
+          Mario Puzo’s The Godfather is a searing, unforgettable portrait of the Mafia underworld. It is a story of family, law and order, and the seductive, violent allure of power in American society. When Don Vito Corleone, head of a powerful New York Mafia family, is gunned down by rival mobsters, a brutal war breaks out. His son, Michael, who has tried to stay legitimate, must rise to take control—and in doing so, becomes a new, more ruthless kind of Don.  
+        </p>
+
+        <div class="rating-row">
+          <div class="rating-left">
+            <div class="stars" data-book-id="b2">
+              <span class="star filled" data-star="1">★</span>
+              <span class="star filled" data-star="2">★</span>
+              <span class="star filled" data-star="3">★</span>
+              <span class="star filled" data-star="4">★</span>
+              <span class="star " data-star="5">★</span>
+            </div>
+            <div class="rating-text">
+              <span>Avg:</span> 4.8 | 5
+            </div>
+            <button class="readlist-btn " data-book-id="b2" type="button">
+              + Add to wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+</body>
+
+</html>
