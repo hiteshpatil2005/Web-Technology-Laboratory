@@ -41,6 +41,18 @@ body {
   margin-right: 6px;
 }
 
+.title p{
+  color: #a9b0bb;
+  margin: 0;
+  margin-left: 30px;
+  font-size: 14px;
+  padding: 4px 10px 4px 10px;
+  border: 1px solid gold;
+  background: rgba(255, 217, 0, 0.212);
+  border-radius: 14px;
+  align-self: center;
+}
+
 .content{
   display: flex;
   gap: 40px;
@@ -319,4 +331,19 @@ option {
 .rating-text span{
   color: #9ca3af;
   font-weight: 600;
+}
+
+.moreBtn{
+  margin-top: 20px;
+}
+
+.readBtn{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  background: #9ca3af4e;
+  border: 1px solid #9ca3af;
+  color: #ffff;
+  border-radius: 10px;
 }
