@@ -1,4 +1,5 @@
 body {
+  color: white; /* Set text color to white for the footer */
   margin-left: 120px;
   margin-right: 120px;
   padding: 0;
@@ -42,13 +43,11 @@ body {
 }
 
 .title p{
-  color: #a9b0bb;
+  color: gold;
   margin: 0;
-  margin-left: 30px;
-  font-size: 14px;
-  padding: 4px 10px 4px 10px;
-  border: 1px solid gold;
-  background: rgba(255, 217, 0, 0.212);
+  margin-left: 6px;
+  font-size: 18px;
+  padding: 8px 10px 4px 10px;
   border-radius: 14px;
   align-self: center;
 }
@@ -74,8 +73,8 @@ ul li a{
 .content button{
   margin-top: 10px;
   height: 40px;
-  background-color: transparent;
-  color: white;
+  background-color: gold;
+  color: black;
   border: 1px solid gold;
   padding: 4px 30px;
   border-radius: 30px;
@@ -86,8 +85,8 @@ ul li a{
 }
 
 .content button:hover{
-  background-color: gold;
-  color: black;
+  background-color: rgba(255, 217, 0, 0.388);
+  color: white;
 }
 
 .content button a{
@@ -342,8 +341,52 @@ option {
   margin: 0 auto;
   padding: 10px 20px 10px 20px;
   font-size: 16px;
-  background: #9ca3af4e;
-  border: 1px solid #9ca3af;
+  background-color: rgba(172, 255, 47, 0.397);
+  border: 1px solid greenyellow;
   color: #ffff;
   border-radius: 10px;
+}
+
+.readBtn:hover{
+  background-color:rgba(172, 255, 47, 0.253);
+}
+
+.footerClass{
+  margin-top: 40px;
+  background-color: rgba(255, 217, 0, 0.219);
+  border-top: 1px solid gold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation ul{
+  list-style: none;
+  color: white;
+}
+
+.navigation ul li{
+  padding: 8px;
+  color: #ffff;
+}
+
+.contact h2{
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navigation h2{
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.map-location {
+  padding-bottom: 20px;
 }
