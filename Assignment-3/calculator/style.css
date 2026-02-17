@@ -3,7 +3,6 @@
 
     .calculator {
         width: 320px;
-        background: black;
         border-radius: 20px;
         padding: 20px;
     }
@@ -12,9 +11,12 @@
     .display {
         height: 100px;
         color: white;
+        background: #bbbb;
         font-size: 60px;
         text-align: right;
-        padding: 20px 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
         overflow: hidden;
     }
 
@@ -29,11 +31,8 @@
     .btn {
         height: 65px;
         border: none;
-        border-radius: 50%;
         font-size: 24px;
         cursor: pointer;
-        background: #333;
-        color: white;
     }
 
 
@@ -45,19 +44,5 @@
     .btn.light {
         background: #a5a5a5;
         color: black;
-    }
-
-
-    .btn.operator {
-        background: #ff9f0a;
-        color: white;
-    }
-
-
-    .zero {
-        grid-column: span 2;
-        border-radius: 40px;
-        text-align: left;
-        padding-left: 25px;
     }
 }
