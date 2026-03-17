@@ -5,28 +5,28 @@ const Section2 = () => {
     const events = [
         {
             img: 'https://plus.unsplash.com/premium_photo-1712956925385-a0557552ee0f?q=80&w=786&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            color: 'royalblue',
+            color: '#00C241',
             title:'Event 1',
             intro: '',
             tag: 'Satisfied'
         },
         {
             img: 'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            color: 'lightseagreen',
+            color: '#bde0fe',
             title:'Event 2',
             intro: '',
             tag: 'UnderServed'
         },
         {
             img: 'https://images.unsplash.com/photo-1631624217902-d14c634ab17c?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            color: '#f1910f',
+            color: '#fdf0d5',
             title:'Event 3',
             intro: '',
             tag: 'Underbanked'
         },
         {
             img: 'https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aWRlYXxlbnwwfHwwfHx8MA%3D%3D',
-            color: '#f1910f',
+            color: '#ff002b',
             title:'Event 4',
             intro: '',
             tag: 'Underbanked'

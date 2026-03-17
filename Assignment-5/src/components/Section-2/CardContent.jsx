@@ -9,7 +9,7 @@ const CardContent = (props) => {
                 <h2 style={{color:props.color}} className='text-white text-5xl font-bold pb-4'>{props.title}</h2>
                 <p className='text-shadow-2xs text-lg leading-relaxed text-white mb-14'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eum vel expedita exercitationem ex error quisquam optio deserunt ipsam delectus?.</p>
                 <div className='flex justify-between'>
-                    <button style={{backgroundColor:props.color}}className=' text-white font-medium px-8 py-2 rounded-full'>CSI</button>
+                    <button style={{borderColor:props.color}}className=' text-white font-medium px-8 py-2 rounded-full border-4'>CSI</button>
                     <button style={{color:props.color}}className=' text-white font-bold px-4 py-2 rounded-full'><i className="ri-arrow-right-line"></i></button>
                 </div>
             </div>
