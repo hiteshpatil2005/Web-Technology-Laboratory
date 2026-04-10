@@ -17,7 +17,7 @@ public class BookListServlet extends HttpServlet {
     
     private static final String DB_URL = "jdbc:mysql://localhost:3306/bookstore_db";
     private static final String DB_USER = "root";       
-    private static final String DB_PASSWORD = "HDPatil@2005"; // UPDATE THIS
+    private static final String DB_PASSWORD = ""; // UPDATE THIS
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) 
